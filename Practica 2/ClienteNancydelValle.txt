@@ -1,0 +1,6 @@
+﻿Vistas
+
+
+1. Página principal: Donde se muestran todos los trabajos hechos por los artistas en un formato parecido al estilo Pinterest, además de la imagen de la pintura o dibujo deberá estar también el nombre de esta y el nombre de su artista. 
+2. Página de Contacto con el artista: En ella se mostrarían los datos básicos del artista, y el modo de contactarlo por si se busca una obra en especial o con ciertas características, además incluiría un apartado donde se muestran otras de sus obras.
+3. Opciones de compra y descripción de la obra:Se mostrarían los detalles de la obra, como los materiales con los que fue realizada o sus dimensiones, entre otras cosas de interés. Se incluirían el precio de la obra, las opciones de la compra, por ejemplo si es un arte en digital si se busca que sea mandado únicamente vía internet o como si fuese un poster. Al final se incluiría una breve descripción del artista, junto con posibles obras relacionadas a la compra, ya sea por su estilo de arte, o la temática de la obra.
