@@ -1,0 +1,284 @@
+/*Fuentes--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'Manuale';
+    src: url('../fonts/Manuale/Manuale-Medium.ttf');
+    font-style: normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Light.ttf');
+    font-style: normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'Monce';
+    src: url('../fonts/Montserrat/Montserrat-Black.ttf');
+    font-style: normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito/Nunito-Light.ttf');
+    font-style: normal;
+    font-weight:normal;
+}
+/*Colores-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#amarillo{
+    background-color: #FFD382;
+    opacity: 0.95;
+}
+/*Letras-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+h1{
+    font-family: "Manuale";
+    font-size: 270%;
+    float: right;
+    position: absolute;
+    left: 20%;
+    height: 0%;
+    margin: 0px;
+    color: black;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 130%;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 150%;
+    margin-left: 30px;
+}
+/*Header-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#Imagen{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+#amarillo.Header{
+    background-color: #FFD382;
+    opacity: 0.95;
+    width: 600px;
+    height: 90px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+#verde{
+    background-color: #8CDFB8;
+    opacity: 0.9;
+    width: 600px;
+    height: 90px;
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+#Cubito{
+    float: left;
+}
+
+h3#Blog{
+    font-family: "Montserrat";
+    font-size: 130%;
+    float: right;
+    position: absolute;
+    left: 30%;
+    height: 50%;
+    margin: 56.5px;
+}
+/*Navegacion----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#nav{
+    position: absolute;
+    z-index: 100;
+    margin-top: 85px;
+}
+.boton{
+    text-align: center;
+    background-color: #5AD697;
+    width: 214.31px;
+    height: 25px;
+    border-right: #21BA6C solid;
+}
+#derecha, #NE{
+    float: right;
+    color: black;
+    position: relative;
+    left: 25%;
+}
+#NE{
+    float: left;
+    width: 222.5px;
+    margin-left:0.3px;
+    position: absolute;
+    left: -1%;
+    top: 0%;
+ }
+#derecha:hover, #NE:hover{
+    background-color: #21BA6C;
+}
+/*Fondo----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#fondo{
+    position: absolute;
+    width: 1100px;
+    height: cover;
+    opacity: 0.3;
+    left: 0%;
+    top: 24%;
+}
+/*Creditos--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#amarillo.Abajo{
+    text-align: center;
+    width: 1100px;
+    position: absolute;
+    left: 0%;
+    top: 120%;
+}
+#triangulo{
+    float: left;
+    width: 0;
+    height: 0;
+     border-right: 50px solid transparent;
+     border-bottom: 50px solid transparent;
+     border-left: 50px solid #FFC75A;
+     border-top: 50px solid #FFC75A;
+}
+#angulo{
+    float: right;
+    width: 0;
+    height: 0;
+     border-left: 50px solid transparent;
+     border-bottom: 50px solid transparent;
+     border-right: 50px solid #FFC75A;
+     border-top: 50px solid #FFC75A;
+}
+#Credit{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+}
+/*Articulos-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#tarjeta{
+    float: left;
+    background-color: #8CDFB8;
+    width: 410px;
+    height: 80px;
+    position: relative;
+    left: 70px;
+    top: 450px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+}
+#Articulo1{
+    float: left;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 0px;
+    top: -250px;
+    background-color: #FF7158;
+    border-left: 5px solid #FF7158;
+    border-right: 5px solid #FF7158;
+    margin-bottom: 300px;
+}
+#circulito{
+    width: 70px;
+     height: 70px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     position: absolute;
+    left: 15px;
+    top: 5px;
+     background:#FF462A;
+}
+#Perfil{
+    width: 70px;
+     height: 70px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     position: absolute;
+    left: 25px;
+    top: 5px;
+     background:#FF462A;
+}
+#Entrada{
+    font-family: "Monce";
+    position: absolute;
+    left: 150px;
+    top: 0px;
+}
+h3#Usuario{
+    font-family: "Nunito";
+    position: absolute;
+    left: 130px;
+    top: 15px;
+}
+#Entrada:hover{
+    color: #FF462A;
+    font-family: "Monce";
+    position: absolute;
+    left: 150px;
+    top: 0px;
+}
+/*Escritores----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#User{
+    width: 900px;
+    height: 100px;
+    background-color:#FF7158;
+    opacity: 0.8;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+#User.Rosa{
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+    left: 80px;
+    top: 170px;
+}
+img#User.Rosa{
+    opacity: 1;
+    position: absolute;
+    left: 75px;
+    top: 160px;
+}
+#User.informacion{
+    width: 900px;
+    height: 300px;
+    background-color:#FFA18C;
+    opacity: 0.8;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+#User.Post{
+    width: 430px;
+    height: 300px;
+    position: absolute;
+    left: 600px;
+    top: 320px;
+}
+#User.Post:hover{
+    border: firebrick solid 5px;
+}
+/*InfodeEscritores-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#Name{
+    font-size: 300%;
+    position: absolute;
+    left: 15%;
+}
+#Info{
+    font-family: "Nunito";
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    font-size: 170%;
+
+}
